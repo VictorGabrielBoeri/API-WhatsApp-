@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "bottleneck": "^2.19.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "events": "^3.3.0",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mongoose": "^8.12.2",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^2.7.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0",
+    "winston": "^3.17.0"
+  },
+  "name": "api-whatsapp-",
+  "version": "1.0.0",
+  "description": "Uma API não oficial do WhatsApp com um **painel de envio customizado**, permitindo o envio e recebimento de mensagens de forma automatizada.",
+  "main": "init-mongo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorGabrielBoeri/API-WhatsApp-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorGabrielBoeri/API-WhatsApp-/issues"
+  },
+  "homepage": "https://github.com/VictorGabrielBoeri/API-WhatsApp-#readme"
+}
