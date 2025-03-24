@@ -22,10 +22,14 @@ Uma API não oficial do WhatsApp com um **painel de envio customizado**, permiti
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
 npm install
+npm init -y
+npm install express express-session body-parser ejs whatsapp-web.js qrcode-terminal
 
 ▶️ Como Iniciar o Painel
 node src/admin/server.js
 Acesse no navegador: http://localhost:3000
+Usuário: admin
+Senha: admin
 
 🛠 Tecnologias Usadas
 Node.js / Express
